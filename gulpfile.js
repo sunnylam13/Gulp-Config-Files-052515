@@ -124,7 +124,7 @@ gulp.task('server', ['sass','jade'], function() {
 
 gulp.task('default', ['server'], function () {	
 	// place everything in here in 'server'
-	// if you weren't using Browser Sync's server
+	// if you weren't using Browser Sync's server you would place all of your gulp.watch() tasks here instead of in the 'server' task above
 });
 
 ////////////////////////////////////////////
